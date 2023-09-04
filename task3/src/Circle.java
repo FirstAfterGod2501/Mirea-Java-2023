@@ -17,10 +17,10 @@ class Circle extends Shape {
         super.SetFilled(filled);
         this.radius = radius;
     }
-    double GetRadius() {
+    public double GetRadius() {
         return this.radius;
     }
-    void SetRadius(double radius) {
+    public void SetRadius(double radius) {
         if (radius > 0) {
             this.radius = radius;
         } else {
