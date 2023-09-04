@@ -10,7 +10,7 @@ public class Dog {
         Age = 0;
     }
 
-    public Dog(String name,int age) {
+    public Dog(String name, int age) {
 
         Name = name;
 
@@ -41,7 +41,7 @@ public class Dog {
     }
 
     public String toString(){
-        return Name+", age " + Age;
+        return Name +", age " + Age;
     }
 
     public void IntoHumanAge(){

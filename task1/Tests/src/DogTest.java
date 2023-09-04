@@ -1,5 +1,6 @@
 public class DogTest {
     public DogTest(){
+        System.out.println("Dog test");
 
         Dog d1 = new Dog("Mike", 2);
         Dog d2 = new Dog("Helen", 7);
@@ -12,5 +13,7 @@ public class DogTest {
         d1.IntoHumanAge();
         d2.IntoHumanAge();
         d3.IntoHumanAge();
+
+        System.out.println("all tests passed\n\n");
     }
 }

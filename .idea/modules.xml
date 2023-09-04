@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-2023.iml" filepath="$PROJECT_DIR$/.idea/Java-2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task1/Tests/Tests.iml" filepath="$PROJECT_DIR$/task1/Tests/Tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task1/task1.iml" filepath="$PROJECT_DIR$/task1/task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task2/task2.iml" filepath="$PROJECT_DIR$/task2/task2.iml" />
+    </modules>
+  </component>
+</project>
