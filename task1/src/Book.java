@@ -1,6 +1,3 @@
-import javax.naming.Name;
-import javax.xml.namespace.QName;
-import java.rmi.UnmarshalException;
 
 public class Book {
 
