@@ -3,12 +3,12 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class MyApp extends JFrame {
+class View extends JFrame {
     int WINDOW_WIDTH = 600;
     int WINDOW_HEIGHT = 600;
     private Model Model;
 
-    MyApp() {
+    View() {
 
         super("awesome app");
 

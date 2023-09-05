@@ -1,10 +1,9 @@
 public interface Movable {
-    public void moveUp();
+    void moveUp();
 
-    public void moveDown();
+    void moveDown();
 
-    public void moveLeft();
+    void moveLeft();
 
-    public void moveRight();
-
+    void moveRight();
 }
