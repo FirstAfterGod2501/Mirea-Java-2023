@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        List<Student> students = new ArrayList<>();
+        var students = new ArrayList<Student>();
         for (int i = 0; i< 50; i++){
-            students.add(new Student("student",i));
+            students.add(new Student("student", ThreadLocalRandom.current().nextInt(0, 101)));
         }
 
         InsertionSort ob = new InsertionSort();
-        ob.sort((Student[]) students.toArray());
+        ob.sort(students);
+        System.out.println(students);
     }
 }

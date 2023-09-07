@@ -13,7 +13,6 @@ public class Recursions {
                 sum += i;
                 j = i;
             }
-            // Шаг рекурсии / рекурсивное условие
             --n;
             System.out.print(GetTriangleSequence(n) + " " + j);
         }

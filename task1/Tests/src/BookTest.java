@@ -1,5 +1,6 @@
 public class BookTest {
     public BookTest() {
+
         System.out.println("Book test");
 
         Book b1 = new Book("Geoffrey Richter", "CLR via C#", 0);

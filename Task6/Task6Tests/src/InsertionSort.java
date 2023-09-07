@@ -1,17 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class InsertionSort {
 
-    void sort(Student[] arr)
+    void sort(ArrayList<Student> arr)
     {
-        int n = arr.length;
+        int n = arr.size();
         for (int i = 1; i < n; ++i) {
-            int key = arr[i].GetID();
+            int key = arr.get(i).GetID();
             int j = i - 1;
 
-            while (j >= 0 && arr[j].GetID() > key) {
-                arr[j + 1] = arr[j];
+            while (j >= 0 && arr.get(j).GetID() > key) {
+                arr.set(j + 1, arr.get(j));
                 j = j - 1;
             }
-            arr[j + 1].SetID(key);
+            arr.get(j + 1).SetID(key);
         }
     }
 };

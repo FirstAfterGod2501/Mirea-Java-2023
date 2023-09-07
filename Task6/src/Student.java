@@ -63,7 +63,7 @@ public class Student {
     }
 
     public String toString(){
-        return Name +", age " + Id;
+        return Name +", age " + Id +"\n";
     }
 
 }
