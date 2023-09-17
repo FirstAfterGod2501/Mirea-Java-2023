@@ -64,7 +64,7 @@ public class Recursions {
         return res;
     }
 
-    public int SumOfNumbersFromNumber(final int n) {
+    public int SumOfNumbersFromNumber(int n) {
 
         if (10 > n) {
             return n;
@@ -221,7 +221,9 @@ public class Recursions {
     }
 
     public void CountElementsEqualsMax(int max, int count) {
+
         java.util.Scanner in = new java.util.Scanner(System.in, StandardCharsets.UTF_8);
+
         int n = in.nextInt();
 
         if (n > 0) {
@@ -243,10 +245,9 @@ public class Recursions {
     public static int MaxSequence() {
         java.util.Scanner in = new java.util.Scanner(System.in, StandardCharsets.UTF_8);
         int n = in.nextInt();
-        // Базовый случай
         if (n == 0) {
             return 0;
-        } // Шаг рекурсии / рекурсивное условие
+        }
         else {
             return Math.max(n, MaxSequence());
         }

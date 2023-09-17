@@ -40,11 +40,15 @@ public class Model {
         LastScorer = Milan;
     }
 
-    public String GetScore(){
-        return "Result:  " + Milan.GetScore() + " X " + Madrid.GetScore();
+    public String GetScore() {
+        return "Result:  " + Milan.GetScore() + " X " + Madrid.GetScore() + "          " + GetLastScorer();
+    }
+
+    public String GetWinner(){
+        return " Winner: " +(Madrid.GetScore() > Milan.GetScore() ? Madrid.GetName() : Milan.GetName());
     }
 
     public String GetLastScorer(){
-        return LastScorer.GetName();
+        return " Last Scorer: " + LastScorer.GetName();
     }
 }
