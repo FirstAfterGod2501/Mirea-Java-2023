@@ -5,29 +5,29 @@ public class Author {
 
     private char Gender;
 
-    public Author(String name, String email, char gender){
+    public Author(String name, String email, char gender) {
         Name = name;
         Email = email;
         Gender = gender;
     }
 
-    public String GetName(){
+    public String GetName() {
         return Name;
     }
 
-    public String GetEmail(){
+    public String GetEmail() {
         return Email;
     }
 
-    public void SetEmail(String email){
+    public void SetEmail(String email) {
         Email = email;
     }
 
-    public char getGender(){
+    public char getGender() {
         return Gender;
     }
 
-    public String toString(){
+    public String toString() {
         return "Name: " + Name + "\nEmail: " + Email + "\nGender: " + Gender;
     }
 }
