@@ -8,7 +8,7 @@ class MyApp extends JFrame {
     int WINDOW_WIDTH = 600;
     int WINDOW_HEIGHT = 600;
     String background_image_path;
-    String animation_images_path = "../anim";
+    String animation_images_path = "../anim/";
     int method;
 
     // Init

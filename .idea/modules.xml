@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-2023.iml" filepath="$PROJECT_DIR$/.idea/Java-2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task13/Task13.iml" filepath="$PROJECT_DIR$/Task13/Task13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task14/Task14.iml" filepath="$PROJECT_DIR$/Task14/Task14.iml" />
       <module fileurl="file://$PROJECT_DIR$/task2/Task2Tests/Task2Tests.iml" filepath="$PROJECT_DIR$/task2/Task2Tests/Task2Tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2_Updated/Task2_Updated.iml" filepath="$PROJECT_DIR$/Task2_Updated/Task2_Updated.iml" />
       <module fileurl="file://$PROJECT_DIR$/task3/Task3Tests/Task3Tests.iml" filepath="$PROJECT_DIR$/task3/Task3Tests/Task3Tests.iml" />
