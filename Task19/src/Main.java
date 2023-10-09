@@ -1,29 +1,32 @@
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        GenericClass<Integer, Float, String> genericClass = new GenericClass<>(10, 10.5f , "Hello");
-        genericClass.printClassNames();
 
-        Integer[] array = {5, 3, 8, 1, 2};
-        MinMax<Integer> minMax = new MinMax<>(array);
-        System.out.println("Min: " + minMax.findMin());
-        System.out.println("Max: " + minMax.findMax());
+    }
 
-        System.out.println("Sum: " + Calculator.sum(5, 3.5));
-        System.out.println("Multiply: " + Calculator.multiply(5, 3.5));
-        System.out.println("Divide: " + Calculator.divide(5, 3.5));
-        System.out.println("Subtraction: " + Calculator.subtraction(5, 3.5));
+    public static <T> List<T> arrayToList(T[] array) {
 
-        Integer[][] matrix1 = {{1, 2}, {3, 4}};
-        Integer[][] matrix2 = {{5, 6}, {7, 8}};
-        Matrix<Integer> matrixA = new Matrix<>(matrix1);
-        Matrix<Integer> matrixB = new Matrix<>(matrix2);
-        Matrix<Integer> matrixC = matrixA.add(matrixB);
-        System.out.println("Matrix C:");
-        for (int i = 0; i < matrixC.getLenght(); i++) {
-            for (int j = 0; j < matrixC.getLenght(); j++) {
-                System.out.print(matrixC.getElement(i, j) + " ");
-            }
-            System.out.println();
+        List<T> list = new ArrayList<>();
+
+        Collections.addAll(list, array);
+
+        return list;
+    }
+
+    public static void printFirstFiveElements(String directory) {
+        File folder = new File(directory);
+        File[] files = folder.listFiles();
+
+        List<String> fileList = new ArrayList<>();
+
+        for (int i = 0; i < files.length && i < 5; i++) {
+            fileList.add(files[i].getName());
         }
+
+        System.out.println(fileList);
     }
 }

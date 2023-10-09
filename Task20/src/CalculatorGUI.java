@@ -40,6 +40,7 @@ public class CalculatorGUI extends JFrame {
         operatorButtons[1] = new JButton("-");
         operatorButtons[2] = new JButton("*");
         operatorButtons[3] = new JButton("/");
+        operatorButtons[3] = new JButton(" ");
         for (JButton button : operatorButtons) {
             button.addActionListener(new OperatorButtonListener());
             buttonPanel.add(button);
@@ -77,7 +78,7 @@ public class CalculatorGUI extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             JButton button = (JButton) e.getSource();
-            currentExpression += " " + button.getText() + " ";
+            currentExpression += button.getText();
             updateTextField();
         }
     }
@@ -85,6 +86,7 @@ public class CalculatorGUI extends JFrame {
     private class EqualsButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
+            currentExpression.replace("  ", " ");
             double result = RPNCalculator.evaluateRPN(currentExpression);
             currentExpression = String.valueOf(result);
             updateTextField();

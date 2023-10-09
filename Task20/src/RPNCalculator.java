@@ -3,6 +3,7 @@ import java.util.Stack;
 public class RPNCalculator {
     public static double evaluateRPN(String expression) {
         Stack<Double> stack = new Stack<>();
+        expression = expression.replace("  ", " ");
         String[] tokens = expression.split(" ");
 
         for (String token : tokens) {
@@ -42,7 +43,7 @@ public class RPNCalculator {
     }
 
     public static void main(String[] args) {
-        String expression = "5 1 2 + 4 * + 3 -";
+        String expression = "5   1   2   +   4   *   +   3   -";
         double result = evaluateRPN(expression);
         System.out.println("Result: " + result);
     }

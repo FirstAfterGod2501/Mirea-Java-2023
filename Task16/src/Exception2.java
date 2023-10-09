@@ -6,6 +6,6 @@ public class Exception2 {
         System.out.print( "Enter an integer ");
         String intString = myScanner.next();
         int i = Integer.parseInt(intString);
-        System.out.println( 2/i );
+        System.out.println( 30/i );
     }
 }
