@@ -1,3 +1,5 @@
+package Task6.src;
+
 class Chair extends Furniture {
     private boolean hasBackrest;
 

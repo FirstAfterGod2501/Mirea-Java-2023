@@ -1,3 +1,7 @@
+package Task5.Task3Tests.src;
+
+import Task5.src.*;
+
 //в задании не сказано тестировать, но если вообще без тестов то техлид ругаца будет
 public class GeometryTest
 {

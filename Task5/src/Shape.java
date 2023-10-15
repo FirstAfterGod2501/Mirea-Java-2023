@@ -1,3 +1,5 @@
+package Task5.src;
+
 abstract class Shape {
     private String Color;
     private boolean Filled;

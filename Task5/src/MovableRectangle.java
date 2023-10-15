@@ -1,3 +1,5 @@
+package Task5.src;
+
 public class MovableRectangle implements Movable{
    private MovablePoint TopLeft;
 

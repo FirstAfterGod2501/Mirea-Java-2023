@@ -1,7 +1,10 @@
+package Task1.Tests.src;
+
+import Task1.src.Ball;
+
 public class BallTest {
     public BallTest(){
         System.out.println("Ball test");
-
         Ball b1 = new Ball();
         Ball b2 = new Ball(2);
         Ball b3 = new Ball(2, 2);

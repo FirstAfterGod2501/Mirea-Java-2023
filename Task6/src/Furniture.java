@@ -1,3 +1,5 @@
+package Task6.src;
+
 abstract class Furniture {
     protected String material;
     protected int weight;

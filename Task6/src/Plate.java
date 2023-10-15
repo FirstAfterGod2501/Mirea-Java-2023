@@ -1,3 +1,5 @@
+package Task6.src;
+
 class Plate extends Dish {
     private boolean isDivided;
 

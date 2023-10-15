@@ -1,3 +1,5 @@
+package Task1.src;
+
 public class Dog {
     private int Age;
 

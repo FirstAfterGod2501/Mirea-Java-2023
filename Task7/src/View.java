@@ -1,7 +1,9 @@
+package Task7.src;
 
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 class View extends JFrame {
     int WINDOW_WIDTH = 600;

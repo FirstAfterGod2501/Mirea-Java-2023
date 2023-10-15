@@ -1,3 +1,7 @@
+package Task3.Task2Tests.src;
+
+import Task3.src.Author;
+
 public class AuthorTest {
     public AuthorTest() {
         System.out.println("Author test");

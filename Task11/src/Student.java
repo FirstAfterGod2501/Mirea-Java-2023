@@ -1,3 +1,5 @@
+package Task11.src;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Student {
