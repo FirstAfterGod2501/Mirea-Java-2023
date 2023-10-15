@@ -1,3 +1,5 @@
+package Task6.src;
+
 class Cup extends Dish {
     private boolean hasHandle;
 

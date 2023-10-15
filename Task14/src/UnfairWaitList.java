@@ -5,7 +5,7 @@ public class UnfairWaitList<T> extends WaitList<T>{
     }
 
     public int getCapacity(){
-        return getCapacity();
+        return Capacity;
     }
 
     @Override

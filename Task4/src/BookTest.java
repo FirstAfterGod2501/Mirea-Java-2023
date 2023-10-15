@@ -1,3 +1,5 @@
+package Task4.src;
+
 public class BookTest {
     public void Test(){
         Book book = new Book("John Doe", "The Book", 2020);

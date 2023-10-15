@@ -1,3 +1,5 @@
+package Task9.src;
+
 public class Book implements Priceable {
     private double price;
 

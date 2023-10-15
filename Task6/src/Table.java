@@ -1,3 +1,5 @@
+package Task6.src;
+
 class Table extends Furniture {
     private int numberOfLegs;
 

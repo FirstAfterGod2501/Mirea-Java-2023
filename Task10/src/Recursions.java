@@ -1,3 +1,5 @@
+package Task10.src;
+
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 

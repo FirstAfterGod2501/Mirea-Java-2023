@@ -1,3 +1,5 @@
+package Task6.src;
+
 abstract class Dog {
     protected String breed;
     protected int age;

@@ -1,3 +1,5 @@
+package Task5.src;
+
 public class MovablePoint implements Movable
 {
     public MovablePoint(int x, int y, int xSpeed, int ySpeed){

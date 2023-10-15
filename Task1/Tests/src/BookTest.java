@@ -1,3 +1,7 @@
+package Task1.Tests.src;
+
+import Task1.src.Book;
+
 public class BookTest {
     public BookTest() {
 

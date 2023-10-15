@@ -1,3 +1,5 @@
+package Task3.src;
+
 public class Author {
     private String Name;
 

@@ -1,4 +1,6 @@
-class Square extends Rectangle {
+package Task5.src;
+
+public class Square extends Rectangle {
 
     Square() {
         SetColor("blue");
@@ -12,7 +14,7 @@ class Square extends Rectangle {
         this.length = side;
     }
 
-    Square(double side, String color, boolean filled) {
+    public Square(double side, String color, boolean filled) {
         SetColor("blue");
         SetFilled(false);
         this.width = side;
@@ -23,7 +25,7 @@ class Square extends Rectangle {
         return this.width;
     }
 
-    void SetSide(double side) {
+    public void SetSide(double side) {
         if (side > 0) {
             this.width = side;
             this.length = side;

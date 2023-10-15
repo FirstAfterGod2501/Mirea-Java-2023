@@ -1,3 +1,5 @@
+package Task4.src;
+
 public class Human {
     private Head head;
     private Leg leg;

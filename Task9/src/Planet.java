@@ -1,3 +1,5 @@
+package Task9.src;
+
 public class Planet implements  Nameable{
     private String name;
 

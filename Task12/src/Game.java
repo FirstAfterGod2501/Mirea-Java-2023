@@ -1,3 +1,5 @@
+package Task12.src;
+
 import java.util.Stack;
 
 public class Game {

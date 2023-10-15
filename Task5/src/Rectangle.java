@@ -1,4 +1,6 @@
-class Rectangle extends Shape {
+package Task5.src;
+
+public class Rectangle extends Shape {
     protected double width;
     protected double length;
 
@@ -7,7 +9,7 @@ class Rectangle extends Shape {
         SetFilled(false);
     }
 
-    Rectangle(double width, double length) {
+    public Rectangle(double width, double length) {
         SetColor("blue");
         SetFilled(false);
         this.width = width;
@@ -48,7 +50,7 @@ class Rectangle extends Shape {
     }
 
     @Override
-    double GetArea() {
+    public double GetArea() {
         return this.length * this.width;
     }
 

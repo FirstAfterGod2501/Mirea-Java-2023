@@ -1,6 +1,8 @@
+package Task5.Task3Tests.src;
+
 public class TestClass
 {
-    TestClass(){
+  /*  TestClass(){
         Shape s1 = new Circle(5.5, "RED", false);
 
         System.out.println(s1);
@@ -51,5 +53,5 @@ public class TestClass
         System.out.println(sq1.GetColor());
         System.out.println(sq1.GetSide());
         System.out.println(sq1.GetLenght());
-    }
+    }*/
 }

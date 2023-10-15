@@ -1,3 +1,5 @@
+package Task6.src;
+
 abstract class Dish {
     protected String material;
     protected int capacity;

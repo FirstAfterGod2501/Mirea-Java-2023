@@ -1,3 +1,7 @@
+package Task1.Tests.src;
+
+import Task1.src.Dog;
+
 public class DogTest {
     public DogTest(){
         System.out.println("Dog test");

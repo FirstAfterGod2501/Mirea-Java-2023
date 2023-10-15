@@ -1,3 +1,5 @@
+package Task2.src;
+
 import java.util.Arrays;
 import java.util.Random;
 

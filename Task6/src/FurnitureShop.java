@@ -1,3 +1,5 @@
+package Task6.src;
+
 class FurnitureShop {
     private String name;
 

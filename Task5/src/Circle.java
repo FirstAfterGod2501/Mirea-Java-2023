@@ -1,4 +1,6 @@
-class Circle extends Shape {
+package Task5.src;
+
+public class Circle extends Shape {
     protected double radius;
 
     Circle() {
@@ -12,7 +14,7 @@ class Circle extends Shape {
         super.SetFilled(false);
         this.radius = radius;
     }
-    Circle(double radius, String color, boolean filled) {
+    public Circle(double radius, String color, boolean filled) {
         super.SetColor(color);
         super.SetFilled(filled);
         this.radius = radius;
